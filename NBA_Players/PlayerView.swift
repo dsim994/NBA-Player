@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PlayerView.swift
 //  NBA_Players
 //
 //  Created by Dylan Simerly on 8/29/19.
@@ -8,27 +8,31 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PlayerView: View {
+    
+    var player : Player
+    
     var body: some View {
         VStack {
             
-            Image("gs").resizable().frame(height:250)
+            Image(player.team.imageName)
+                .resizable()
+                .frame(height:250)
             
-            Image("steph")
+            Image(player.imageName)
                 .clipShape(Circle())
                 .background(Circle())
                 .foregroundColor(.white)
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
                 .shadow(radius: 15).offset(x: 0, y: -30).padding(.bottom, -30)
             
-            Text("Steph Currey")
-                
+            Text(player.name)
                 .font(.system(size: 50))
                 .fontWeight(.bold)
             
-            StatText(statName: "Age", statValue: "31")
-            StatText(statName: "Height", statValue: "6' 3\"")
-            StatText(statName: "Weight", statValue: "190lbs")
+            StatText(statName: "Age", statValue: String(player.age))
+            StatText(statName: "Height", statValue: player.height)
+            StatText(statName: "Weight", statValue: String(player.weight) + "lbs")
             
             
             Spacer()
@@ -39,6 +43,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PlayerView(player: players[0])
     }
 }
