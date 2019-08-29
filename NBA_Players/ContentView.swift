@@ -22,10 +22,14 @@ struct ContentView: View {
                 .shadow(radius: 15).offset(x: 0, y: -30).padding(.bottom, -30)
             
             Text("Steph Currey")
+                
                 .font(.system(size: 50))
                 .fontWeight(.bold)
             
-            StatText()
+            StatText(statName: "Age", statValue: "31")
+            StatText(statName: "Height", statValue: "6' 3\"")
+            StatText(statName: "Weight", statValue: "190lbs")
+            
             
             Spacer()
             
