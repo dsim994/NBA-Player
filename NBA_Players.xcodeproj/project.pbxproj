@@ -16,6 +16,7 @@
 		BC149A792317B9EC00C3E330 /* NBA_PlayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A782317B9EC00C3E330 /* NBA_PlayersTests.swift */; };
 		BC149A842317B9EC00C3E330 /* NBA_PlayersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A832317B9EC00C3E330 /* NBA_PlayersUITests.swift */; };
 		BC149A922317BA0E00C3E330 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A912317BA0E00C3E330 /* Player.swift */; };
+		BC149A9E2317C5CE00C3E330 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A9D2317C5CE00C3E330 /* StatText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BC149A832317B9EC00C3E330 /* NBA_PlayersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_PlayersUITests.swift; sourceTree = "<group>"; };
 		BC149A852317B9EC00C3E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC149A912317BA0E00C3E330 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BC149A9D2317C5CE00C3E330 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				BC149A612317B9EB00C3E330 /* AppDelegate.swift */,
 				BC149A632317B9EB00C3E330 /* SceneDelegate.swift */,
 				BC149A652317B9EB00C3E330 /* ContentView.swift */,
+				BC149A9D2317C5CE00C3E330 /* StatText.swift */,
 				BC149A672317B9EC00C3E330 /* Assets.xcassets */,
 				BC149A6C2317B9EC00C3E330 /* LaunchScreen.storyboard */,
 				BC149A6F2317B9EC00C3E330 /* Info.plist */,
@@ -274,6 +277,7 @@
 				BC149A622317B9EB00C3E330 /* AppDelegate.swift in Sources */,
 				BC149A642317B9EB00C3E330 /* SceneDelegate.swift in Sources */,
 				BC149A662317B9EB00C3E330 /* ContentView.swift in Sources */,
+				BC149A9E2317C5CE00C3E330 /* StatText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,9 +19,13 @@ struct ContentView: View {
                 .background(Circle())
                 .foregroundColor(.white)
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                .shadow(radius: 15).offset(x: 0, y: -30)
+                .shadow(radius: 15).offset(x: 0, y: -30).padding(.bottom, -30)
             
             Text("Steph Currey")
+                .font(.system(size: 50))
+                .fontWeight(.bold)
+            
+            StatText()
             
             Spacer()
             
