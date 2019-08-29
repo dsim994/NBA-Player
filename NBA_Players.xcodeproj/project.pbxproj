@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC149A622317B9EB00C3E330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A612317B9EB00C3E330 /* AppDelegate.swift */; };
+		BC149A642317B9EB00C3E330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A632317B9EB00C3E330 /* SceneDelegate.swift */; };
+		BC149A662317B9EB00C3E330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A652317B9EB00C3E330 /* ContentView.swift */; };
+		BC149A682317B9EC00C3E330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC149A672317B9EC00C3E330 /* Assets.xcassets */; };
+		BC149A6B2317B9EC00C3E330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC149A6A2317B9EC00C3E330 /* Preview Assets.xcassets */; };
+		BC149A6E2317B9EC00C3E330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC149A6C2317B9EC00C3E330 /* LaunchScreen.storyboard */; };
+		BC149A792317B9EC00C3E330 /* NBA_PlayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A782317B9EC00C3E330 /* NBA_PlayersTests.swift */; };
+		BC149A842317B9EC00C3E330 /* NBA_PlayersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A832317B9EC00C3E330 /* NBA_PlayersUITests.swift */; };
+		BC149A922317BA0E00C3E330 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC149A912317BA0E00C3E330 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC149A752317B9EC00C3E330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC149A562317B9EB00C3E330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC149A5D2317B9EB00C3E330;
+			remoteInfo = NBA_Players;
+		};
+		BC149A802317B9EC00C3E330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC149A562317B9EB00C3E330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC149A5D2317B9EB00C3E330;
+			remoteInfo = NBA_Players;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC149A5E2317B9EB00C3E330 /* NBA_Players.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA_Players.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC149A612317B9EB00C3E330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC149A632317B9EB00C3E330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC149A652317B9EB00C3E330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC149A672317B9EC00C3E330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC149A6A2317B9EC00C3E330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC149A6D2317B9EC00C3E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC149A6F2317B9EC00C3E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC149A742317B9EC00C3E330 /* NBA_PlayersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBA_PlayersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC149A782317B9EC00C3E330 /* NBA_PlayersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_PlayersTests.swift; sourceTree = "<group>"; };
+		BC149A7A2317B9EC00C3E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC149A7F2317B9EC00C3E330 /* NBA_PlayersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBA_PlayersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC149A832317B9EC00C3E330 /* NBA_PlayersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_PlayersUITests.swift; sourceTree = "<group>"; };
+		BC149A852317B9EC00C3E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC149A912317BA0E00C3E330 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC149A5B2317B9EB00C3E330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC149A712317B9EC00C3E330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC149A7C2317B9EC00C3E330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC149A552317B9EB00C3E330 = {
+			isa = PBXGroup;
+			children = (
+				BC149A602317B9EB00C3E330 /* NBA_Players */,
+				BC149A772317B9EC00C3E330 /* NBA_PlayersTests */,
+				BC149A822317B9EC00C3E330 /* NBA_PlayersUITests */,
+				BC149A5F2317B9EB00C3E330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC149A5F2317B9EB00C3E330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC149A5E2317B9EB00C3E330 /* NBA_Players.app */,
+				BC149A742317B9EC00C3E330 /* NBA_PlayersTests.xctest */,
+				BC149A7F2317B9EC00C3E330 /* NBA_PlayersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC149A602317B9EB00C3E330 /* NBA_Players */ = {
+			isa = PBXGroup;
+			children = (
+				BC149A912317BA0E00C3E330 /* Player.swift */,
+				BC149A612317B9EB00C3E330 /* AppDelegate.swift */,
+				BC149A632317B9EB00C3E330 /* SceneDelegate.swift */,
+				BC149A652317B9EB00C3E330 /* ContentView.swift */,
+				BC149A672317B9EC00C3E330 /* Assets.xcassets */,
+				BC149A6C2317B9EC00C3E330 /* LaunchScreen.storyboard */,
+				BC149A6F2317B9EC00C3E330 /* Info.plist */,
+				BC149A692317B9EC00C3E330 /* Preview Content */,
+			);
+			path = NBA_Players;
+			sourceTree = "<group>";
+		};
+		BC149A692317B9EC00C3E330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC149A6A2317B9EC00C3E330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC149A772317B9EC00C3E330 /* NBA_PlayersTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC149A782317B9EC00C3E330 /* NBA_PlayersTests.swift */,
+				BC149A7A2317B9EC00C3E330 /* Info.plist */,
+			);
+			path = NBA_PlayersTests;
+			sourceTree = "<group>";
+		};
+		BC149A822317B9EC00C3E330 /* NBA_PlayersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC149A832317B9EC00C3E330 /* NBA_PlayersUITests.swift */,
+				BC149A852317B9EC00C3E330 /* Info.plist */,
+			);
+			path = NBA_PlayersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC149A5D2317B9EB00C3E330 /* NBA_Players */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC149A882317B9EC00C3E330 /* Build configuration list for PBXNativeTarget "NBA_Players" */;
+			buildPhases = (
+				BC149A5A2317B9EB00C3E330 /* Sources */,
+				BC149A5B2317B9EB00C3E330 /* Frameworks */,
+				BC149A5C2317B9EB00C3E330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBA_Players;
+			productName = NBA_Players;
+			productReference = BC149A5E2317B9EB00C3E330 /* NBA_Players.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC149A732317B9EC00C3E330 /* NBA_PlayersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC149A8B2317B9EC00C3E330 /* Build configuration list for PBXNativeTarget "NBA_PlayersTests" */;
+			buildPhases = (
+				BC149A702317B9EC00C3E330 /* Sources */,
+				BC149A712317B9EC00C3E330 /* Frameworks */,
+				BC149A722317B9EC00C3E330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC149A762317B9EC00C3E330 /* PBXTargetDependency */,
+			);
+			name = NBA_PlayersTests;
+			productName = NBA_PlayersTests;
+			productReference = BC149A742317B9EC00C3E330 /* NBA_PlayersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC149A7E2317B9EC00C3E330 /* NBA_PlayersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC149A8E2317B9EC00C3E330 /* Build configuration list for PBXNativeTarget "NBA_PlayersUITests" */;
+			buildPhases = (
+				BC149A7B2317B9EC00C3E330 /* Sources */,
+				BC149A7C2317B9EC00C3E330 /* Frameworks */,
+				BC149A7D2317B9EC00C3E330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC149A812317B9EC00C3E330 /* PBXTargetDependency */,
+			);
+			name = NBA_PlayersUITests;
+			productName = NBA_PlayersUITests;
+			productReference = BC149A7F2317B9EC00C3E330 /* NBA_PlayersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC149A562317B9EB00C3E330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Dylan Simerly";
+				TargetAttributes = {
+					BC149A5D2317B9EB00C3E330 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BC149A732317B9EC00C3E330 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BC149A5D2317B9EB00C3E330;
+					};
+					BC149A7E2317B9EC00C3E330 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BC149A5D2317B9EB00C3E330;
+					};
+				};
+			};
+			buildConfigurationList = BC149A592317B9EB00C3E330 /* Build configuration list for PBXProject "NBA_Players" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC149A552317B9EB00C3E330;
+			productRefGroup = BC149A5F2317B9EB00C3E330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC149A5D2317B9EB00C3E330 /* NBA_Players */,
+				BC149A732317B9EC00C3E330 /* NBA_PlayersTests */,
+				BC149A7E2317B9EC00C3E330 /* NBA_PlayersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC149A5C2317B9EB00C3E330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC149A6E2317B9EC00C3E330 /* LaunchScreen.storyboard in Resources */,
+				BC149A6B2317B9EC00C3E330 /* Preview Assets.xcassets in Resources */,
+				BC149A682317B9EC00C3E330 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC149A722317B9EC00C3E330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC149A7D2317B9EC00C3E330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC149A5A2317B9EB00C3E330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC149A922317BA0E00C3E330 /* Player.swift in Sources */,
+				BC149A622317B9EB00C3E330 /* AppDelegate.swift in Sources */,
+				BC149A642317B9EB00C3E330 /* SceneDelegate.swift in Sources */,
+				BC149A662317B9EB00C3E330 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC149A702317B9EC00C3E330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC149A792317B9EC00C3E330 /* NBA_PlayersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC149A7B2317B9EC00C3E330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC149A842317B9EC00C3E330 /* NBA_PlayersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC149A762317B9EC00C3E330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC149A5D2317B9EB00C3E330 /* NBA_Players */;
+			targetProxy = BC149A752317B9EC00C3E330 /* PBXContainerItemProxy */;
+		};
+		BC149A812317B9EC00C3E330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC149A5D2317B9EB00C3E330 /* NBA_Players */;
+			targetProxy = BC149A802317B9EC00C3E330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC149A6C2317B9EC00C3E330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC149A6D2317B9EC00C3E330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC149A862317B9EC00C3E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC149A872317B9EC00C3E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC149A892317B9EC00C3E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA_Players/Preview Content\"";
+				DEVELOPMENT_TEAM = D9F6D6KZ89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NBA_Players/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DylanSimerly.NBA-Players";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC149A8A2317B9EC00C3E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA_Players/Preview Content\"";
+				DEVELOPMENT_TEAM = D9F6D6KZ89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NBA_Players/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DylanSimerly.NBA-Players";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC149A8C2317B9EC00C3E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9F6D6KZ89;
+				INFOPLIST_FILE = NBA_PlayersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DylanSimerly.NBA-PlayersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBA_Players.app/NBA_Players";
+			};
+			name = Debug;
+		};
+		BC149A8D2317B9EC00C3E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9F6D6KZ89;
+				INFOPLIST_FILE = NBA_PlayersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DylanSimerly.NBA-PlayersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBA_Players.app/NBA_Players";
+			};
+			name = Release;
+		};
+		BC149A8F2317B9EC00C3E330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9F6D6KZ89;
+				INFOPLIST_FILE = NBA_PlayersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DylanSimerly.NBA-PlayersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NBA_Players;
+			};
+			name = Debug;
+		};
+		BC149A902317B9EC00C3E330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9F6D6KZ89;
+				INFOPLIST_FILE = NBA_PlayersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DylanSimerly.NBA-PlayersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NBA_Players;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC149A592317B9EB00C3E330 /* Build configuration list for PBXProject "NBA_Players" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC149A862317B9EC00C3E330 /* Debug */,
+				BC149A872317B9EC00C3E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC149A882317B9EC00C3E330 /* Build configuration list for PBXNativeTarget "NBA_Players" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC149A892317B9EC00C3E330 /* Debug */,
+				BC149A8A2317B9EC00C3E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC149A8B2317B9EC00C3E330 /* Build configuration list for PBXNativeTarget "NBA_PlayersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC149A8C2317B9EC00C3E330 /* Debug */,
+				BC149A8D2317B9EC00C3E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC149A8E2317B9EC00C3E330 /* Build configuration list for PBXNativeTarget "NBA_PlayersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC149A8F2317B9EC00C3E330 /* Debug */,
+				BC149A902317B9EC00C3E330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC149A562317B9EB00C3E330 /* Project object */;
+}
