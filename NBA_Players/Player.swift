@@ -1,9 +1,9 @@
 //
 //  Player.swift
-//  NBA Finals Players
+//  NBA_Players
 //
-//  Created by zappycode on 6/3/19.
-//  Copyright © 2019 Nick Walter. All rights reserved.
+//  Created by Dylan Simerly on 8/29/19.
+//  Copyright © 2019 Dylan Simerly. All rights reserved.
 //
 
 import Foundation

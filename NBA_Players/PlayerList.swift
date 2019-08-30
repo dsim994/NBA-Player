@@ -9,21 +9,13 @@
 import SwiftUI
 
 struct PlayerList: View {
-    
     var body: some View {
-        
         NavigationView {
-            
             List(players) {
-                
                 player in
-                
                 NavigationLink(destination:PlayerView(player: player)) {
-                    
                     PlayerRow(player: player)
-                    
                 }
-                
             }.navigationBarTitle(Text("NBA Finals Players"), displayMode: .large)
         }
     }
@@ -31,6 +23,9 @@ struct PlayerList: View {
 
 struct PlayerList_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerList()
+        Group {
+            PlayerList().previewDevice("iPhone XS Max").environment(\.sizeCategory, .extraLarge).previewDisplayName("XS Max Large Text")
+            PlayerList().previewDevice("iPhone SE").environment(\.sizeCategory, .extraLarge).previewDisplayName("SE Large Text")
+        }
     }
 }

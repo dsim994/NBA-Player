@@ -15,7 +15,7 @@ struct StatText: View {
     
     var body: some View {
         
-        HStack {
+        HStack(alignment: .center) {
             
             Text(statName + ":")
                 .font(.system(size: 45))
@@ -27,7 +27,7 @@ struct StatText: View {
             Spacer()
         
             
-        }
+        }.minimumScaleFactor(0.5)
     }
 }
 

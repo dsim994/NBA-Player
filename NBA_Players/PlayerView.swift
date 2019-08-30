@@ -20,15 +20,18 @@ struct PlayerView: View {
                 .frame(height:250)
             
             Image(player.imageName)
+                .resizable().scaledToFit()
                 .clipShape(Circle())
-                .background(Circle())
-                .foregroundColor(.white)
+                .background(Circle()
+                .foregroundColor(.white))
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                .shadow(radius: 15).offset(x: 0, y: -30).padding(.bottom, -30)
+                .shadow(radius: 15).offset(x: 0, y: -90).padding(.bottom, -90)
             
             Text(player.name)
                 .font(.system(size: 50))
                 .fontWeight(.bold)
+                .padding(.horizontal)
+                .minimumScaleFactor(0.5)
             
             StatText(statName: "Age", statValue: String(player.age))
             StatText(statName: "Height", statValue: player.height)
