@@ -38,13 +38,8 @@ struct PlayerRow: View {
 
 struct PlayerRow_Previews: PreviewProvider {
     static var previews: some View {
-        VStack {
-            PlayerRow(player: players[0]).previewLayout(.fixed(width: 500, height: 100))
-            PlayerRow(player: players[1]).previewLayout(.fixed(width: 500, height: 100))
-            PlayerRow(player: players[2]).previewLayout(.fixed(width: 500, height: 100))
-            PlayerRow(player: players[3]).previewLayout(.fixed(width: 500, height: 100))
-            PlayerRow(player: players[4]).previewLayout(.fixed(width: 500, height: 100))
-        }
+        PlayerRow(player: players[0])
+            .previewLayout(.fixed(width: 500, height: 100))
     }
 }
 

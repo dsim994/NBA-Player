@@ -43,6 +43,28 @@ struct PlayerView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerView(player: players[0])
+        Group {
+            
+            PlayerView(player: players[0])
+                .previewDevice("iPhone Xs Max")
+                .environment(\.sizeCategory, .extraLarge)
+                .previewDisplayName("XS Max Large Text")
+            
+            PlayerView(player: players[0])
+                .previewDevice("iPhone Xs Max")
+                .environment(\.sizeCategory, .extraSmall)
+                .previewDisplayName("XS Max Small Text")
+            
+            PlayerView(player: players[0])
+                .previewDevice("iPhone SE")
+                .environment(\.sizeCategory, .extraLarge)
+                .previewDisplayName("SE Large Text")
+            
+            PlayerView(player: players[0])
+            .previewDevice("iPhone SE")
+            .environment(\.sizeCategory, .extraSmall)
+            .previewDisplayName("SE Small Text")
+        }
+        
     }
 }

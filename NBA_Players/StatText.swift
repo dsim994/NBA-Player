@@ -33,6 +33,6 @@ struct StatText: View {
 
 struct StatText_Previews: PreviewProvider {
     static var previews: some View {
-        StatText(statName: "Age:", statValue: "40")
+        StatText(statName: "Age", statValue: "40")
     }
 }
