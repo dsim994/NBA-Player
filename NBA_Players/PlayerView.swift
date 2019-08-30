@@ -25,18 +25,19 @@ struct PlayerView: View {
                 .background(Circle()
                 .foregroundColor(.white))
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                .shadow(radius: 15).offset(x: 0, y: -90).padding(.bottom, -90)
-            
+                .shadow(radius: 15)
+                .offset(x: 0, y: -25)
+                .padding(.bottom, -35)
+        
             Text(player.name)
                 .font(.system(size: 50))
                 .fontWeight(.bold)
-                .padding(.horizontal)
                 .minimumScaleFactor(0.5)
-            
+        
             StatText(statName: "Age", statValue: String(player.age))
+//                .padding(.top, 35)
             StatText(statName: "Height", statValue: player.height)
             StatText(statName: "Weight", statValue: String(player.weight) + "lbs")
-            
             
             Spacer()
             
